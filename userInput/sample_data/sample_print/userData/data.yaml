@@ -3,4 +3,36 @@ windowTittle: "Homeward Bound January 2023"
 a4Parent:
   page1:
     p1header:
-      p1himage: 
+      p1himage1: "userInput/sample_data/sample_print/img/Homeward-Bound-Logo-No-Tagline.png"
+      p1hline1: <b>THE GIVEN IT BACK AND PLAYING IT FORWORD REAL ESTATE</b>
+      p1himage2: "userInput/sample_data/sample_print/img/be-happy_109979-3.avif"
+    p1body: 
+      p1bodyleft: 
+        p1blHeader: |
+          Hi <span data-slot="dwc" data-param-slot-name="mw_alias">{alias}</span>
+        p1blsectext: |
+          You are on our elite list and <br>
+          will be the first to get our updates. <br>
+          I prepared this exclusively for you. <br>
+          I'm eager to hear back from you.
+        p1blimage3: "userInput/sample_data/sample_print/img/medium-poster-for-room-and-office-motivational-poster-for-walls-original-imafen2z5gejnuzq.webp"
+      p1bodyright:
+        p1brimage4: "userInput/sample_data/sample_print/img/GettyImages-545286316-433dd345105e4c6ebe4cdd8d2317fdaa.jpg"
+        p1brText1: |
+          <div class="quotes">
+          Happiness cannot be traveled to, owned, earned, 
+          worn or consumed. Happiness is the spiritual experience 
+          of living every minute with love, grace, and gratitude</div>
+          <div class="quotes">
+          Everything has its wonders, even darkness and silence, and 
+          I learn, whatever state I may be in, therein to be content.
+          </div>
+          <div class="quotes">
+          You will never be happy if you continue to search for what 
+          happiness consists of. You will never live if you are looking 
+          for the meaning of life.
+          </div>
+        p1brText2: Count your age by friends, not years. Count your life by smiles, not tears.
+    p1footer:
+      footerText: “Learn to value yourself, which means fight for your happiness.” ― Ayn Rand
+
