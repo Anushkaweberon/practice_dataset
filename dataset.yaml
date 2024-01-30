@@ -3,15 +3,6 @@ sample_print:
   userdata: "userInput/sample_data/sample_print/userData"
   dynamicDataYamlFile: "userInput/sample_data/sample_print/userData/dynamicData.yaml"
   medium: "PRINT"
-  ogTitle: "Praveen Kumar's Weberon"
-  ogDescription: "Company"
-  ogImage: ""
-
-sample_web:
-  template: "templateInput/sample_dataset"
-  userdata: "userInput/sample_data/sample_web/userData"
-  dynamicDataYamlFile: "userInput/sample_data/sample_web/userData/dynamicData.yaml"
-  medium: "WEB"
-  ogTitle: "Praveen Kumar's Weberon"
-  ogDescription: "Company"
+  ogTitle: ""
+  ogDescription: ""
   ogImage: ""
