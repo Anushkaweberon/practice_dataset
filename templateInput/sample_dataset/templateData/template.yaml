@@ -1,0 +1,95 @@
+parentcontainer:
+  type: div
+  className: parentcontainer
+  css:
+    position: relative
+    padding: 20px
+  children: 
+    page1:
+      type: div
+      className: page1
+      css: 
+        margin: auto 0
+        textAlign: center
+      children:
+        page1header:
+          type: text
+          css:
+            color: "#000"
+            fontSize: 5vw
+        page1body:
+          type: div
+          className: page1body
+          css:
+            display: flex
+          children:
+            page1bodyleft:
+              type: div
+              className: page1bodyleft
+              css:
+                padding: 60px 60px
+              children:
+                page1bodyleftimg:
+                  type: img
+                  css:
+                    width: 20vw
+                    height: 20vw
+                    display: block
+                    filter: drop-shadow(10px 10px 20px rgb(87,87,87))
+                    margin: auto
+                    alignItem: center
+                    backgroundSize: cover
+                    backgroundPosition: center
+                    marginBottom: 40px
+                page1bodyleftline1:
+                  type: text
+                  css:
+                    fontSize: 2vw 
+                    fontWeight: 400
+            page1bodyright:
+              type: div
+              className: page1bodyright
+              css:
+                padding: 120px 120px 0 120px
+                textAlign: start
+              children:
+                page1bodyrightline1:
+                  type: text
+                  css:
+                    color: "#000"
+                    fontSize: 3vw
+                page1bodyrightline2:
+                  type: text
+                  css:
+                    color: "#000"
+                    fontSize: 1.5vw
+                    lineHeight: 2
+        page1footer: 
+          type: div
+          className: page1footer
+          css:
+            backgroundColor: rgb(87,87,87)
+            # width: 100%
+            # height: 50px
+            display: flex
+            alignItem: center
+            justifyContent: space-between
+            # gap: 40px
+            padding: 70px 160px
+            fontSize: 1.5vw
+            color: "#fff"
+          children:
+            page1footerline1:
+              type: text
+              css:
+                # color: "#000"
+            page1footerline2:
+              type: text
+              css:
+                # fontSize: 1vw
+            page1footerline3:
+              type: text
+              css:
+                # fontSize: 1vw
+
+  
