@@ -1,8 +1,17 @@
 sample_print:
   template: "templateInput/sample_dataset"
-  userdata: "userInput/sample_data/sample_print/userData"
+  userdata: "userInput/sample_data/sample_print"
   dynamicDataYamlFile: "userInput/sample_data/sample_print/userData/dynamicData.yaml"
   medium: "PRINT"
+  ogTitle: ""
+  ogDescription: ""
+  ogImage: ""
+
+sample_web:
+  template: "templateInput/sample_dataset"
+  userdata: "userInput/sample_data/sample_print"
+  dynamicDataYamlFile: "userInput/sample_data/sample_print/userData/dynamicData.yaml"
+  medium: "WEB"
   ogTitle: ""
   ogDescription: ""
   ogImage: ""
