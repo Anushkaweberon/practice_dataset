@@ -3,20 +3,19 @@ parentcontainer:
   className: parentcontainer
   css:
     position: relative
-    padding: 20px
   children: 
     page1:
       type: div
       className: page1
       css: 
-        margin: auto 0
-        textAlign: center
+        borderRadius: 20px
       children:
         page1header:
           type: text
+          className: page1header
           css:
             color: "#000"
-            fontSize: 5vw
+            fontSize: 3.5vw
         page1body:
           type: div
           className: page1body
@@ -27,69 +26,131 @@ parentcontainer:
               type: div
               className: page1bodyleft
               css:
-                padding: 60px 60px
+                # padding: 60px 60px
               children:
                 page1bodyleftimg:
                   type: img
                   css:
-                    width: 20vw
-                    height: 20vw
+                    width: 18vw
+                    height: 18vw
                     display: block
                     filter: drop-shadow(10px 10px 20px rgb(87,87,87))
                     margin: auto
-                    alignItem: center
                     backgroundSize: cover
                     backgroundPosition: center
-                    marginBottom: 40px
+                    marginBottom: 20px
                 page1bodyleftline1:
                   type: text
                   css:
-                    fontSize: 2vw 
-                    fontWeight: 400
+                    fontSize: 1.5vw 
+                    fontWeight: 300
             page1bodyright:
               type: div
               className: page1bodyright
               css:
-                padding: 120px 120px 0 120px
                 textAlign: start
+                padding: 2vw 4vw
               children:
                 page1bodyrightline1:
                   type: text
+                  className: page1bodyrightline1
                   css:
-                    color: "#000"
-                    fontSize: 3vw
+                    fontSize: 2vw
+                    opacity: 0.8
+                    fontWeight: 600
                 page1bodyrightline2:
                   type: text
+                  className: page1bodyrightline2
                   css:
-                    color: "#000"
-                    fontSize: 1.5vw
+                    fontSize: 1.2vw
+                    opacity: 0.7
                     lineHeight: 2
         page1footer: 
           type: div
           className: page1footer
           css:
-            backgroundColor: rgb(87,87,87)
-            # width: 100%
-            # height: 50px
+            height: 300px
+            width: 100%
             display: flex
             alignItem: center
-            justifyContent: space-between
-            # gap: 40px
-            padding: 70px 160px
-            fontSize: 1.5vw
-            color: "#fff"
+            marginTop: 40px
+            borderTop: 1px solid black
+            paddingTop: 20px
           children:
-            page1footerline1:
-              type: text
+            page1footerleft:
+              type: div
+              className: page1footerleft
               css:
-                # color: "#000"
-            page1footerline2:
-              type: text
+                width: 50%
+                height: 100%
+                textAlign: start
+                display: flex
+                flexDirection: column
+                fontSize: 1vw
+                gap: 30px
+              children:
+                page1footerleftline1:
+                  type: text
+                  className: page1footerleftline
+                  css:
+                    # color: "#fff"
+                page1footerleftline2:
+                  type: text
+                  className: page1footerleftline
+                  css:
+                    # color: "#fff"
+                page1footerleftline3:
+                  type: text
+                  className: page1footerleftline
+                  css:
+                    # color: "#fff"
+                page1footerleftline4:
+                  type: text
+                  className: page1footerleftline
+                  css:
+                    # color: "#fff"
+                page1footerleftline5:
+                  type: text
+                  className: page1footerleftline
+                  css:
+                    # color: "#fff"
+            page1footerright:
+              type: div
+              className: page1footerright
               css:
-                # fontSize: 1vw
-            page1footerline3:
-              type: text
-              css:
-                # fontSize: 1vw
+                width: 50%
+                height: 100%
+                textAlign: start
+                display: flex
+                flexDirection: column
+                fontSize: 1vw
+                gap: 30px
+              children:
+                page1footerrightline1:
+                  type: text
+                  className: page1footerrightline
+                  css:
+                    # color: "#fff"
+                page1footerrightline2:
+                  type: text
+                  className: page1footerrightline
+                  css:
+                    # color: "#fff"
+                page1footerrightline3:
+                  type: text
+                  className: page1footerrightline
+                  css:
+                    # color: "#fff"
+                page1footerrightline4:
+                  type: text
+                  className: page1footerrightline
+                  css:
+                    # color: "#fff"
+                page1footerrightline5:
+                  type: text
+                  className: page1footerrightline
+                  css:
+                    # color: "#fff"
 
-  
+
+        
