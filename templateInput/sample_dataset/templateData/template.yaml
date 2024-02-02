@@ -62,7 +62,7 @@ parentcontainer:
                   type: text
                   className: page1bodyrightline2
                   css:
-                    fontSize: 20px
+                    fontSize: 18px
                     opacity: 0.7
                     lineHeight: 2
         page1footer: 
