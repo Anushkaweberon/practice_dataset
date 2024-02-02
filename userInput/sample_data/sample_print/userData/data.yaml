@@ -13,17 +13,17 @@ parentcontainer:
           Praveen Kumar was previously associated with 1 company, Weberon Dotcom Private Limited.
     page1footer: 
       page1footerleft:
-        page1footerleftline1: "CIN: <span style='margin-left: 7vw;font-weight: 300;'>{{ppdc: cin}}</span>" 
-        page1footerleftline2: "Type: <span style='margin-left: 6.5vw;font-weight: 300;'>{{ppdc: type}}</span>"
-        page1footerleftline3: "Revenue: <span style='margin-left: 5vw;font-weight: 300;'>{{ppdc: revenue}}</span>"
-        page1footerleftline4: "Sub-Category: <span style='margin-left: 2.8vw;font-weight: 300;'>{{ppdc: sub-category}}</span>"
-        page1footerleftline5: "Email: <span style='margin-left: 6vw;font-weight: 300;'>{{ppdc: email}}</span>"
+        page1footerleftline1: "CIN: <span style='margin-left: 100px;font-weight: 300;'>{{ppdc: cin}}</span>" 
+        page1footerleftline2: "Type: <span style='margin-left: 95px;font-weight: 300;'>{{ppdc: type}}</span>"
+        page1footerleftline3: "Revenue: <span style='margin-left: 70px;font-weight: 300;'>{{ppdc: revenue}}</span>"
+        page1footerleftline4: "Sub-Category: <span style='margin-left: 30px;font-weight: 300;'>{{ppdc: sub-category}}</span>"
+        page1footerleftline5: "Email: <span style='margin-left: 85px;font-weight: 300;'>{{ppdc: email}}</span>"
       page1footerright: 
-        page1footerrightline1: "Industry: <span style='margin-left: 10vw;font-weight: 300;'>{{ppdc: industry}}</span>" 
-        page1footerrightline2: "Founded: <span style='margin-left: 10vw;font-weight: 300;'>{{ppdc: founded}}</span>"
-        page1footerrightline3: "Authorized Capital: <span style='margin-left: 5.5vw;font-weight: 300;'>{{ppdc: authorized_capital}}</span>"
-        page1footerrightline4: "Category: <span style='margin-left: 9.8vw;font-weight: 300;'>{{ppdc: category}}</span>"
-        page1footerrightline5: "Address: <span style='margin-left: 10.2vw;font-weight: 300;'>{{ppdc: address}}</span>"
+        page1footerrightline1: "Industry: <span style='margin-left: 140px;font-weight: 300;'>{{ppdc: industry}}</span>" 
+        page1footerrightline2: "Founded: <span style='margin-left: 140px;font-weight: 300;'>{{ppdc: founded}}</span>"
+        page1footerrightline3: "Authorized Capital: <span style='margin-left: 65px;font-weight: 300;'>{{ppdc: authorized_capital}}</span>"
+        page1footerrightline4: "Category: <span style='margin-left: 135px;font-weight: 300;'>{{ppdc: category}}</span>"
+        page1footerrightline5: "Address: <span style='margin-left: 140px;font-weight: 300;'>{{ppdc: address}}</span>"
 
 
     

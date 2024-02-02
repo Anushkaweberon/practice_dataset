@@ -55,21 +55,20 @@ parentcontainer:
                   type: text
                   className: page1bodyrightline1
                   css:
-                    fontSize: 2vw
+                    fontSize: 30px
                     opacity: 0.8
                     fontWeight: 600
                 page1bodyrightline2:
                   type: text
                   className: page1bodyrightline2
                   css:
-                    fontSize: 1.2vw
+                    fontSize: 20px
                     opacity: 0.7
                     lineHeight: 2
         page1footer: 
           type: div
           className: page1footer
           css:
-            height: 300px
             width: 100%
             display: flex
             alignItem: center
@@ -82,11 +81,9 @@ parentcontainer:
               className: page1footerleft
               css:
                 width: 50%
-                height: 100%
                 textAlign: start
                 display: flex
                 flexDirection: column
-                fontSize: 1vw
                 gap: 30px
               children:
                 page1footerleftline1:
@@ -123,7 +120,6 @@ parentcontainer:
                 textAlign: start
                 display: flex
                 flexDirection: column
-                fontSize: 1vw
                 gap: 30px
               children:
                 page1footerrightline1:
