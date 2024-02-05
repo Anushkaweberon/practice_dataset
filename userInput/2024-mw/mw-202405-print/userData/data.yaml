@@ -1,0 +1,331 @@
+---
+windowTitle: Marketwatch May 2024
+tabloidParent:
+  page1:
+    page1Header:
+      page1HeaderLeft:
+        image1: img/image1.png
+        image2: img/image2.png
+      page1HeaderRight:
+        image3: img/image3.png
+        image3_alt: 
+          image3Text: "Market Watch"
+        sec1line1: Praveen Kumar's
+        sec1: MARKETWATCH
+        sec1line2: Real Estate news for <span data-slot="dwc" data-param-slot-name="mw_alias">{alias}</span>
+        sec1line3: May 2024
+        columns:
+          column1:
+            tableHeading1: <b>TEL# /WhatsApp</b>
+            tableData1: <a href="tel:925-452-7483">925‐452‐7483</a>
+          column2:
+            tableHeading2: <b>WEBSITE</b>
+            tableData2: <a href="//www.EastBayGuaranteedSale.com/"><b>EastBayGuaranteedSale.com</b></a>
+          column3:
+            tableHeading3: <b>EMAIL</b>
+            tableData3: <a href="mailto:praveen@weberealty.com">praveen@weberealty.com</a>
+    
+    page1Body:
+      p1bSection1:
+        p1bsLeft:
+          rightSec2Header: Beat Out Other Buyers to <span  style="color:#cd0f13;"><i><u>HOT</u></i></span> New Listings
+          rightSec2Text: |
+            <p>
+              Why call a high-pressure sales agent who will just make you feel obligated 
+              when all you want is a <i><b>hassle-free way</b></i> to know about the price, 
+              location, or particulars of a home for sale. Well, you <u>don't have to talk 
+              to anyone because my system will search out ALL homes currently listed or 
+              sold anywhere in the area by all real estate companies.</u>
+            </p>
+            <p>
+              All you need to do is access my FREE, 24-hour House Hunter service any 
+              time and leave your home-buying criteria, including price range and 
+              preferred area. We will send you a hotlist of all current homes that 
+              match your criteria, including address, price and full listing details.<b> 
+              This information is free and obligates you to nothing. It’s all part of my 
+              FREE House-Hunter Service which you can access, so call my toll-free 
+              House-Hunter hotline today at 1‐844‐311‐5109 & enter ID# 5071.</b>
+            </p>
+        p1bsRight:
+          leftSec1Header: |
+            10 Ways to Save Money When<br>
+            Buying a New <span data-slot="dwc" data-param-slot-name="mw_city">{loi}</span> Home
+          leftSec1Text: |
+            <p>
+              Although most
+              homes for sale are resale, one of
+              four homebuyers purchases a new home.
+              Which is better: existing or new? The correct
+              answer, of course, is up to you. Both resales
+              and new homes offer advantages.
+              Existing homes are less expensive on
+              average, and are generally closer to, and
+              enjoy the warmth and surroundings of,
+              established neighborhoods, often with
+              mature landscaping.
+            </p>
+            <p>
+              New homes, on the other hand,
+              offer innovative use of space, more incredible energy
+              efficiency and choices of options
+              and upgrades. Everything is new and
+              modern.
+            </p> 
+            <p>
+              Most people consider both new
+              and existing homes before they decide to
+              purchase. A new, special insider report
+              entitled “New Homes - 10 Tips to Save
+              You Time and Money” has just been
+              released, which identifies 10 invaluable
+              tips to save you time and money when
+              purchasing a brand-new home. Also
+              revealed are little-known buyer advantages
+              that most builders may not tell you.
+            </p>
+            <p>
+              To learn more about what you
+              should be aware of before you visit your
+              the first model home, order this free report
+              today.
+            </p>
+            <p>
+              <b>
+                To hear a brief recorded message about how to order your FREE copy 
+                of this report, call toll-free<br> 1‐844‐311‐5109 and enter ID# 5010. 
+                You can call any time, 24 hours a day, 7 days a week.
+              </b>
+            </p>
+            
+          sectionLeft2:
+            leftSec2Header: <b>FREE HOMESELLER'S MARKETING CHECKLIST</b>
+            leftSec2Text: |
+              This valuable checklist has helped hundreds of area home sellers make 
+              thousands of dollars more on their home sale. Now you too can maximize your 
+              home’s saleability with this Homeseller’s Marketing Checklist, which reveals 
+              27 Valuable Tips to Sell Your Home Fast
+              and for Top Dollar. We’ll send you your free Homeseller’s Marketing Checklist 
+              at no charge and without obligation.<br/>To order any time, 24 hours a day, 
+              simply call
+            leftSec2Footer: '1‐844‐311‐5109 ID# 5023'
+      p1bSection2:
+        p1bs2Box1:
+          leftSec3Header: DISTRESS SALE HOMES <span data-slot="dwc" data-param-slot-name="mw_city">{loi}</span> <BR>BANK FORECLOSURES.
+          leftSec3Text: 'Free hotlist of foreclosure property listing w/pics.'
+          leftSec3Footer: 'Free recorded message<br><b>1‐844‐311‐5109 ID# 5042</b>'
+        p1bs2Box2:
+          leftSec4Header: How to Sell Your House<br>Without an Agent
+          leftSec4Text: </br>Free Reports Reveals "10 Inside Tips" to selling your house by yourself.
+          leftSec4Footer: 'Free record message<br><b>1‐844‐311‐5109 ID# 5017</b>'
+        p1bs2Box3:
+          rightSec1Header1: <b>Renters</b>
+          rightSec1Header2: <b>Stop Paying Your Landlord's Mortgage</b>
+          rightSec1Text: 'Free Report Reveals How Easy it is to Buy Your Own Home.'
+          rightSec1Footer: 'Free recorded message <br><b>1‐844‐311‐5109 ID# 5001</b>'
+
+    page1Footer:
+      page1FooterText: "Consumer information provided courtesy of Praveen Kumar, CA BRE Lic#: 01928307"
+      page1FooterImg: img/image4.png
+
+  page2:
+    page2Header: "It's YOUR Move"
+    page2Body:
+      p2bSection1:
+        p2bs1Left:
+          p2bslBox1:
+            headerRightSec2: INFORMATION CORNER
+            textRightSec2: |
+              Valuable FREE reports for Buyers and Sellers sent to you<br>at no cost or 
+              obligation. Call anytime 24 hours a day to<br><SPAN STYLE="font-size:150%"'>
+              <b>844‐311‐5109</b></span><b> and enter the ID#</b><br> of the information 
+              that you would like to receive.
+          p2bslBox2:
+            headerRightSec3: BUYERS
+            listRightSec3: "<ol type='1'>  
+                <li><b>SAVE THOUSANDS </b>- Find out how you can save
+              thousands of dollars when you buy a home... <b>ID# 5014</b></li>
+                <li><b>STOP PAYING RENT </b>- Learn how to buy your first
+              home for as little as renting... <b>ID# 5001</b><br></li>
+                <li><b>FIXER UPPER HOMES </b>- Receive a FREE hotlist of
+              the most current bargain homes that are priced below
+              market because they need work ... <b>ID# 5048</b></li>
+                <li><b>10 BEST BUYS HOT LIST </b>- Receive a FREE hotlist of
+              the most current Best Buys in your desired location and
+              price range ... <b>ID# 5040</b></li>
+                <li><b>9 BUYER TRAPS </b>- How to avoid these common traps
+              that could cost you the home of your dreams... <b>ID# 5018</b></li>
+              </ol>"
+          p2bslBox3:
+            headerRightSec4: SELLERS
+            listRightSec4: "<ol type='1'>
+              <li><b>11 HOME INSPECTION PITFALLS </b>- Learn about
+              these common and costly traps BEFORE you list... <b>ID# 5003</b></li>
+              <li><b>COSTLY HOMESELLER MISTAKES </b>- Learn how to avoid these common mistakes and save yourself
+              thousands of dollars when you sell your home.<br>
+              <b>ID# 5000</b></li>
+              <li><b>HOW TO SELL YOUR HOME WITHOUT AN
+              AGENT... <b>ID# 5017</b></li>
+              <li><b>FIND OUT WHAT AREA HOMES ARE SELLING</b>
+              FOR - Receive a Free hotlist of recent homesales and
+              current listings...<b>ID# 5041</b></li>
+              <li><b>27 QUICK & EASY FIXUPS </b>- Learn how to sell your
+              home fast and for top dollar... <b>ID# 5023</b></li>
+            </ol>"
+        p2bs1Right:
+          topLeftsec: |
+            11 Critical Home Inspection<br>
+            Traps to be Aware of Weeks<br>
+            Before Listing Your<br>
+            <span data-slot="dwc" data-param-slot-name="mw_city">{loi}</span> Home for Sale
+          sec2LeftText: |
+            <p>
+              According to industry experts
+              there are over 33 physical problems that will come
+              under scrutiny during a home inspection when your
+              home is for sale. A new report has been prepared which
+              identifies the eleven most common of these problems,
+              and what you should know about them before you list
+              your home for sale.
+            </p>
+            <p>
+              Whether you own an old home or a brand new
+              one, there are several things that can fall short
+              of requirements during a home inspection. If not
+              identified and dealt with, any of these 11 items could
+              cost you dearly in terms of repair. That’s why it’s critical
+              that you read this report before you list your home. If
+              you wait until the building inspector flags these issues
+              for you, you will almost certainly experience costly
+              delays in the close of your home sale or, worse, turn
+              prospective buyers away altogether. In most cases,
+              you can make a reasonable pre-inspection yourself if
+              you know what you’re looking for and know what
+              you’re looking for can help you prevent little problems
+              from growing into costly and unmanageable ones.
+            </p>
+            <p>
+              To help home sellers deal with this issue before
+              their homes are listed, a free report entitled “11 Things
+              You Need to Know to Pass Your Home Inspection” has
+              been compiled, which explains the issues involved.
+            </p>
+            
+            <p>
+              <b>
+                To hear a brief recorded message about how
+                to order your FREE copy of this report, call toll-free
+                844‐311‐5109 and enter 5003. You can call any time, 24
+                hours a day, 7 days a week.
+              </b>
+            </p>
+            <p>              
+              Get your free special report NOW to learn how
+              to ensure a home inspection doesn’t cost you the sale
+              of your home.
+            </p>
+
+      p2bSection2:
+        p2bs2Box1:
+          p2bs2bx1Header: HOMESELLERS<br>Find out what home<br>down the street sold for!
+          p2bs2bx1Body: "Free hotlist w/pics of recent area<br>homesales and current listings."
+          p2bs2bx1Footer: "Free recorded message<br><b>844‐311‐5109 ID# 5041</b>"
+        p2bs2Box2:
+          p2bs2bx2Header: HOME BUYERS<br>SAVE THOUSANDS
+          p2bs2bx2Body: Free Report reveals how to avoid costly<br>errors and save thousands when you<br>buy a home.
+          p2bs2bx2Footer: Free recorded message<br><b>844‐311‐5109 ID# 5014</b>
+        p2bs2Box3:
+          p2bs2bx3Header: 11 COSTLY<br/>HOME INSPECTION<br/>PITFALLS14 10 Questions<br/>to Ask Before You Hire a<br/>REALTOR®
+          p2bs2bx3Body: Do not hire an agent before you read<br/>this Free Special Report.
+          p2bs2bx3Footer: Free recorded message<br><b>844‐311‐5109 ID# 5006</b>
+        
+    page2Footer:
+      page2FooterText: "Not intended to solicit buyers or sellers currently under contract. Courtesy of Praveen Kumar, CA BRE Lic#: 01928307"
+      page2FooterImg: img/image4.png
+
+  page5a:
+    stat_loi: |
+      <div data-slot="dwc" data-param-slot-name="mw_stat_loi" id="mw_stat_loi_parent">
+        <div id="p5astat_loi_def" 
+          style="left:0rem;top:0rem;width:51rem;height:66rem;position:absolute;z-index:2;background-image:url('./img/{loi}_detached.svg')"
+          fallbackurl="./img/contra_costa_detached.svg">
+        </div>
+      </div>
+
+  page_letter:
+    letter_body:
+      letter_date: "May 2024"
+      letter_address:
+        fromBox:
+          frm_line1: PRAVEEN KUMAR
+          frm_line2: "12935 ALCOSTA BLVD UNIT 3681"
+          frm_line3: "SAN RAMON, CA 94583-6173"
+        toBox:
+          # to_line1: "xxxxxx"
+          # to_line2: "*************************************"
+          to_line3: <span data-slot="dwc">{line1}</span>
+          to_line4: <span data-slot="dwc">{line2}</span>
+          to_line5: <span data-slot="dwc">{line3}</span>
+          to_line6: <span data-slot="dwc">{street}</span>
+          to_line7: <span data-slot="dwc">{city}, {state}, {zip}</span>
+
+      salutation: <span>Hello <span data-slot="dwc">{alias}</span>,</span>
+      messageHeader: "We are selling homes like yours at more than 110% of listing price!"
+      message: |
+        <p class="letterpara">
+          We just repeated that success by selling another home in <span data-slot="dwc">{loi}</span> for 114.46% above listed price!
+        </p>
+
+        <p class="letterpara">
+          It is a sellers market! Since interest rates are low, it is attracting many buyers to this red hot market. If you have a
+          home, there is no better time than now to sell and realize capital gains.
+        </p>
+
+        <p class="letterpara">
+          Enclosed are details of market activity in October for <span data-slot="dwc">{loi}</span>, and my newsletter. On page 1, discover how to
+          to save money when buying a new home. We also help you prepare to sell your home with a useful
+          checklist for home sellers. Additionally, page 2 has a list of useful reports that you can request, for FREE.
+        </p>
+
+        <p class="letterpara">
+          Whether you’re selling or buying a home, we’re sure that you have lots of questions. We invite your questions and
+          explain how to direct them to us, so they can be answered in one of the upcoming issues of MarketWatch. This
+          month we’ve addressed another popular question that many homebuyers ask. "Don't Pay Another Cent in Rent to
+          Your Landlord Before You Read this FREE Special Report".
+        </p>
+
+        <p class="letterpara">
+          Don’t forget, you can call my office any time at 925‐452‐7483 for a FREE Quick Over-the-Phone Home Evaluation.
+        </p>
+
+        <p class="letterpara">
+          As its name implies, this is a NO cost, NO obligation way of learning what your home can sell for in today’s market.
+          Subscribe to instant updates on Best Buys by sending <span data-slot="dwc">"START {alias}"</span> to 925452483 on WhatsApp.
+        </p>
+
+        <p class="letterpara">
+          I look forward to hearing from you.
+        </p>
+
+        <p class="letterpara">
+          Sincerely,
+        </p>
+      letterFooter:
+        signatureBox:
+          signature: img/image-006.png
+          signatureName: Praveen Kumar
+          signatureTitle: "Broker Owner, WeBeRealty"
+          licenseNumber: "CA BRE Lic#:01928307"
+          email: "praveen@weberealty.com"
+        qrCodeSection:
+          qrInfoBox:
+            scanMe: "Scan QR Code"
+            or: "or"
+            callPraveen: "CALL Praveen"
+            mobileNumber: "✆ 925‐320‐0863"
+          letterQRCode: "{trackableurl}"
+
+####
+
+
+    
+
