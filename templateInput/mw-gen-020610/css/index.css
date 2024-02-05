@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-indent: 30px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'arial';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arial.ttf');
+}
+@font-face {
+  font-family: 'arialBoldItalic';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arialbi.ttf');
+}
+@font-face {
+  font-family: 'times-new-roman-bold-italic';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-bold-italic-2.ttf');
+}
+@font-face {
+  font-family: 'times-new-roman-italic';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-italic.ttf');
+}
+@font-face {
+  font-family: 'times-new-roman-bold';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-bold.otf');
+}
+@font-face {
+  font-family: 'times-new-roman';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman.ttf');
+}
+@font-face {
+  font-family: 'ink free';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/Inkfree.ttf');
+}
+
+#p2bs3lList > ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 0.4rem;
+  margin: 0;
+}
+#p2bs3rList > ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 0.4rem;
+  margin: 0;
+}
+.a4parent{
+  justify-content: center;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  min-height: 11in;
+  width: 8.5in;
+  justify-content: space-between;
+  border: 1px solid;
+}
+.page1HeaderLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.zeropara{
+  margin-top: 0.35rem;
+}
+.zeropara1{
+  margin-top: 1rem;
+}
+.zeropara2{
+  margin-top: 1.2rem;
+}
+.boldfont{
+  font-weight: bold;
+}
+.justifyText{
+  text-align: justify;
+}
+
+#image3_alt{
+  display: none;
+}
+
+a[href^=tel] {
+  text-decoration:inherit;
+  color: inherit;
+}
+
+@media all and (max-width: 8.5in){
+  .page{
+      width: 100%;
+      border: none;
+  }
+  .a4parent{
+    width: 100%;
+  } 
+  
+}
+
+#image1{
+  width: 1.4in;
+  height: 1.4in;
+}
+
+#image2{
+  width: 1.1in;
+  height: 0.53in;
+}
+
+/* #p1bs1Content{
+  -webkit-columns: 3;
+  columns: 3;
+}
+#p1bs2lb1Text{
+  -webkit-columns: 2;
+  columns: 2;
+} */
+
+#p1bs1rContent{
+  -webkit-columns: 2;
+  columns: 2;
+}
+
+#p1bs2Content{
+  /* columns: 40px 3; */
+  columns: 3;
+  -webkit-columns: 3;
+}
+
+@media all and (max-width: 8.22in){
+  #page1HeaderLeft{
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #image1{
+    width: 0.98in;
+    height: 0.98in;
+  }
+}
+
+@media all and (max-width: 7in){
+  #page1Header #page1HeaderRight #image3,#sec1line1 {
+    display: none;
+  }  
+  #image3_alt{
+    display: flex;
+  }
+  .page1BodyText1{
+    -webkit-columns: 1;
+    columns: 1;
+  }
+  .leftSec1Text{
+    -webkit-columns: 1;
+    columns: 1;
+  }
+  #p1bs1rContent{
+    -webkit-columns: 1;
+    columns: 1;
+  }
+  #p1bs2Content{
+    columns: 1;
+    -webkit-columns: 1;
+  }
+}
+
+@media print {
+  .a4parent{
+    justify-content: start;
+    width: 8.5in;
+  }
+  .page{
+    border: none;
+  }
+  .page1HeaderLeft{
+    display: flex;
+  }
+  #page1Header #page1HeaderRight #image3,#sec1line1 {
+    display: flex;
+  }  
+  #page1Header #page1HeaderRight #image3 {
+    height: 0.2in;
+  }
+  #image3_alt{
+    display: none;
+  }
+}
