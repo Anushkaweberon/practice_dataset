@@ -1,0 +1,999 @@
+---
+tabloidParent:
+  type: div
+  className: tabloidParent
+  css:
+    display: flex
+    flexDirection: row
+    flexWrap: wrap
+  children:
+    page1:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        page1Header:
+          type: div
+          css:            
+            marginTop: 15px
+            marginBottom: 1px
+            marginLeft: 20px
+            marginRight: 20px
+            border: '4px solid #cd0f13' 
+            zIndex: 10
+            display: flex
+            flexDirection: row
+            flexWrap: wrap
+            justifyContent: space-around
+          children:
+            page1HeaderLeft:
+              type: div
+              className: page1HeaderLeft
+              css:
+                flex: 1 0 auto
+                display: flex
+                # flexDirection: column
+                justifyContent: center
+                gap: 0.25rem
+                # alignItems: center
+              children:
+                image1:
+                  type: img
+                  css:
+                    # width: 1.4in
+                    # height: 1.4in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2
+                image2:
+                  type: img
+                  css:
+                    # width: 1.1in
+                    # height: 0.53in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2
+            page1HeaderRight:
+              type: div
+              css:
+                flex: 1 1 6.15in
+                # flex: 1 0 uto
+                display: flex
+                flexDirection: column
+                justifyContent: space-between
+                alignItems: center
+              children:
+                sec1line1:
+                  type: text
+                  css:
+                    color: '#cd0f13'
+                    textAlign: center
+                    fontFamily: 'arialBoldItalic'
+                    fontSize: 1.75rem
+                    zIndex: 6
+                    marginBottom: -1rem
+                    display: flex
+                image3:
+                  type: img
+                  css:
+                    width: 98%
+                    height: 0.67in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2
+                image3_alt:
+                  type: div
+                  css:
+                    color: Navy                    
+                    fontWeight: bolder
+                    fontSize: 2.7rem   
+                    marginTop: 0.7rem
+                    lineHeight: 2.5rem
+                    width: "100%"  
+                    textAlign: center   
+                    justifyContent: center  
+                    backgroundColor: 'darkgrey'          
+                  children:
+                    image3Text:
+                      type: text
+                      # css:
+                      #   display: flex
+                      #   justifyContent: center
+                      #   width: 100%
+                      #   backgroundColor: 'darkgrey'
+                sec1line2:
+                  type: text
+                  css:
+                    color: '#13b65d'
+                    textAlign: center
+                    fontFamily: 'times-new-roman-bold-italic'
+                    fontSize: 1.75rem
+                    zIndex: 6
+                sec1line3:
+                  type: text
+                  css:
+                    color: white
+                    textAlign: center
+                    width: 100%
+                    fontFamily: 'times-new-roman-italic'
+                    fontSize: 1.75rem
+                    backgroundColor: '#cd0f13'
+                    zIndex: 6
+                columns:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: row
+                    flexWrap: wrap
+                    width: 100%
+                    justifyContent: space-between
+                  children:
+                    column1:
+                      type: div
+                      css:
+                        flex: 1 0 auto
+                        border: 2px solid black
+                        paddingRight: 0.1rem
+                        paddingLeft: 0.1rem
+                      children:
+                        tableHeading1:
+                          type: text
+                          css:
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 1.25rem
+                            fontFamily: arial
+                            color: Black
+                            marginBottom: 0.05in
+                        tableData1:
+                          type: text
+                          css:
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 1rem
+                            fontFamily: arial
+                            color: '#cd0f13'
+                    column2:
+                      type: div
+                      css:
+                        flex: 1 0 auto
+                        border: 2px solid black
+                        paddingRight: 0.1rem
+                        paddingLeft: 0.1rem
+                      children:
+                        tableHeading2:
+                          type: text
+                          css:
+                            zIndex: 3
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 1.25rem
+                            fontFamily: arial
+                            color: Black
+                        tableData2:
+                          type: text
+                          css:
+                            zIndex: 3
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 0.95rem
+                            fontFamily: arial
+                            color: '#cd0f13'
+                    column3:
+                      type: div
+                      css:
+                        flex: 1 0 auto
+                        border: 2px solid black
+                        paddingRight: 0.1rem
+                        paddingLeft: 0.1rem
+                      children:
+                        tableHeading3:
+                          type: text
+                          css:
+                            zIndex: 3
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 1.25rem
+                            fontFamily: arial
+                            color: Black
+                        tableData3:
+                          type: text
+                          css:
+                            zIndex: 3
+                            display: block
+                            textAlign: center
+                            lineHeight: '1'
+                            fontSize: 0.95rem
+                            fontFamily: arial
+                            color: '#cd0f13' 
+        
+        page1Body:
+            type: div
+            css:
+              marginLeft: 20px
+              marginRight: 20px
+              border: 2px solid blacK
+              zIndex: 3 
+              display: flex
+              flexDirection: column 
+              alignItems: center
+              padding: 0.5rem
+              gap: 0.5rem
+            children:
+              p1bSection1:
+                type: div
+                css:
+                  display: flex
+                  flexDirection: row
+                  flexWrap: wrap
+                  gap: 0.5rem
+                children:
+                  p1bsLeft:
+                    type: div
+                    css:
+                      flex: 1 1 15.3rem
+                      display: flex
+                      flexDirection: column
+                    children:
+                      rightSec2Header:
+                        type: text
+                        css:                          
+                          textAlign: center                      
+                          lineHeight: 1.0
+                          fontSize: 2.3rem
+                          fontFamily: times-new-roman-bold
+                          color: '#003366'
+                      rightSec2Text:
+                        type: text
+                        css:
+                          zIndex: 3
+                          textAlign: Justify
+                          lineHeight: 1.08
+                          fontSize: 0.969rem
+                          fontFamily: calibri
+                          color: '#181715'
+
+                  p1bsRight:
+                    type: div
+                    css:
+                      flex: 1 1 31rem
+                      display: flex
+                      flexDirection: column
+                    children:
+                      leftSec1Header:
+                        type: text
+                        css:
+                          zIndex: 3
+                          #paddingLeft: 10px
+                          textAlign: center
+                          padding: 0.25rem
+                          lineHeight: 0.87
+                          fontSize: 2.0rem
+                          fontFamily: times-new-roman-bold
+                          color: '#003366'
+                      leftSec1Text:
+                        type: text
+                        className: leftSec1Text
+                        css:
+                          zIndex: 3
+                          columnGap: 1rem
+                          textAlign: Justify
+                          padding: 0.1rem
+                          lineHeight: "1.07"
+                          fontSize: 0.938rem
+                          fontFamily: calibri
+                          color: '#181715'
+                          WebkitColumns: 2
+                      sectionLeft2:
+                        type: div
+                        css:                          
+                          zIndex: 3
+                          padding: 0.1rem
+                          border: '2px solid #003366'
+                          borderRadius: 1.25rem
+                          display: flex
+                          flexDirection: column
+                        children:
+                          leftSec2Header:
+                            type: text
+                            css:
+                              zIndex: 3
+                              textAlign: center                              
+                              fontSize: 1.25rem
+                              fontFamily: calibri
+                              color: '#cd0f13'
+                              margin: 0.5rem
+                          leftSec2Text:
+                            type: text
+                            css:
+                              zIndex: 3
+                              textAlign: center
+                              lineHeight: '1.2'
+                              fontSize: 0.932rem
+                              fontFamily: times-new-roman
+                              color: '#181715'
+                          leftSec2Footer:
+                            type: text
+                            css:
+                              zIndex: 3
+                              textAlign: center
+                              lineHeight: '1'
+                              fontSize: 1.25rem
+                              fontFamily: times-new-roman-bold
+                              color: '#181715'
+                    
+                      
+
+                            p1bSection2:
+                              type: text
+                              css:
+                                display: flex
+                                flexDirection: row
+                                flexWrap: wrap
+                                gap: 0.5rem
+                              children:
+
+              p1bSection2:
+                type: div
+                css:
+                  display: flex
+                  flexDirection: row
+                  flexWrap: wrap
+                  gap: 0.5rem
+                children:
+                  p1bs2Box1:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center     
+                      gap: 0.5rem
+                      border: '2px solid #003366'
+                    children:
+                      leftSec3Header:
+                        type: text
+                        css:  
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.188rem
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      leftSec3Text:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          fontSize: 0.938rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      leftSec3Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.25rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                  p1bs2Box2:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center
+                      gap: 0.5rem
+                      border: '2px solid #003366'
+                                        
+                    children:
+                      leftSec4Header:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.438rem
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      leftSec4Text:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1.3'
+                          fontSize: 0.969rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      leftSec4Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.25rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                  p1bs2Box3:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center
+                      gap: 0.5rem                      
+                      border: '2px solid #003366'
+                    children:
+                      rightSec1Header1:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.438rem
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      rightSec1Header2:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          fontSize: 1.375rem
+                          lineHeight: '1.3'
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      rightSec1Text:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 0.969rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      rightSec1Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.188rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                  
+        page1Footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            flexWrap: wrap
+          children:
+            page1FooterText:
+              type: text
+              css:
+                zIndex: 3
+                fontSize: 13px
+                fontFamily: times-new-roman
+                color: Black
+                textAlign: center
+            page1FooterImg:
+              type: img
+              css:
+                width: 0.2in
+                height: 0.2in
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                zIndex: 3
+    
+    page2:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        page2Header:
+          type: text
+          css:
+            minHeight: 0.79in
+            marginTop: 15px
+            marginBottom: 1px
+            color: white
+            lineHeight: '1'
+            fontSize: 3.75rem
+            fontFamily: ink free
+            display: flex
+            alignItems: center
+            justifyContent: center 
+            backgroundColor: '#CC0F18'
+            zIndex: 3
+            textAlign: center
+        page2Body:
+          type: div
+          css:            
+            zIndex: 3 
+            display: flex
+            flexDirection: column 
+            alignItems: center
+            padding: 0.5rem
+            gap: 0.5rem
+          children:
+            p2bSection1:
+              type: div
+              css:
+                display: flex
+                flexDirection: row
+                flexWrap: wrap
+                gap: 0.5rem
+                width: 100%
+              children:
+                p2bs1Left:
+                  type: div
+                  css:
+                    flex: 1 1 4in
+                    display: flex
+                    flexDirection: column
+                    gap: 0.5rem
+                    
+                  children:
+                    p2bslBox1:
+                      type: div
+                      css:
+                        display: flex
+                        flexDirection: column
+                        gap: 0.5rem
+                      children:
+                        headerRightSec2:
+                          type: text
+                          css:                            
+                            fontSize: 1.688rem
+                            textAlign: center
+                            lineHeight: '1'
+                            fontFamily: times-new-roman-bold
+                            color: '#CC0F18'
+                            zIndex: 3 
+                        textRightSec2:
+                          type: text
+                          css:
+                            fontSize: 0.75rem
+                            textAlign: center
+                            fontFamily: arial
+                            color: rgb(0,51,102)
+                            zIndex: 3 
+                    p2bslBox2:
+                      type: div
+                      css:
+                        display: flex
+                        flexDirection: column
+                        gap: 0.25rem                
+                      children:
+                        headerRightSec3:
+                          type: text
+                          css:
+                            fontSize: 1.375rem
+                            textAlign: center
+                            lineHeight: '1'
+                            fontFamily: times-new-roman-bold
+                            color: '#CC0F18'
+                        listRightSec3:
+                          type: text
+                          css:
+                            fontSize: 0.875rem
+                            fontFamily: times-new-roman
+                            color: '#003366'
+                    p2bslBox3:
+                      type: div
+                      css:
+                        display: flex
+                        flexDirection: column
+                        gap: 0.25rem 
+                      children:
+                        headerRightSec4:
+                          type: text
+                          css:
+                            fontSize: 1.375rem
+                            textAlign: center
+                            lineHeight: '1'
+                            fontFamily: times-new-roman-bold
+                            color: '#CC0F18'
+                        listRightSec4:
+                          type: text
+                          css:
+                            fontSize: 0.875rem
+                            fontFamily: times-new-roman
+                            color: '#003366'
+                    
+                p2bs1Right:
+                  type: div
+                  css:
+                    flex: 1 1 4in
+                    display: flex
+                    flexDirection: column
+                    gap: 0.5rem
+                  children:
+                    topLeftsec:
+                      type: text
+                      css:
+                        marginTop: 15px
+                        marginBottom: 1px
+                        marginLeft: 20px
+                        marginRight: 20px
+                        fontSize: 1.863rem
+                        fontFamily: times-new-roman-bold
+                        textAlign: center
+                        color: 'black'
+                        zIndex: 3
+                    sec2LeftText:
+                      type: text
+                      css:
+                        fontSize: 0.906rem
+                        fontFamily: calibri
+                        color: black
+                        textAlign: justify
+                        zIndex: 3
+                    
+            p2bSection2:
+              type: div
+              css:
+                display: flex
+                flexDirection: row
+                flexWrap: wrap
+                gap: 0.5rem
+                width: 100%
+              children:
+                  p2bs2Box1:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center     
+                      gap: 0.5rem  
+                      border: '2px solid #003366'
+                    children:
+                      p2bs2bx1Header:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          fontSize: 1.375rem
+                          lineHeight: '1.3'
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      p2bs2bx1Body:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 0.969rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      p2bs2bx1Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.188rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+
+                  p2bs2Box2:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center
+                      gap: 0.5rem
+                      border: '2px solid #003366'                  
+                    children:
+                      p2bs2bx2Header:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          fontSize: 1.375rem
+                          lineHeight: '1.3'
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      p2bs2bx2Body:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 0.969rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      p2bs2bx2Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.188rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                  
+                  p2bs2Box3:
+                    type: div
+                    css:
+                      flex: 1 1 2.5in
+                      zIndex: 3
+                      display: flex
+                      flexDirection: column
+                      justifyContent: center
+                      gap: 0.5rem
+                      border: '2px solid #003366'
+                    children:                      
+                      p2bs2bx3Header:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          fontSize: 1.375rem
+                          lineHeight: '1.3'
+                          fontFamily: times-new-roman-bold
+                          color: '#cd0f13'
+                      p2bs2bx3Body:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 0.969rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                      p2bs2bx3Footer:
+                        type: text
+                        css:
+                          zIndex: 3                      
+                          textAlign: center
+                          lineHeight: '1'
+                          fontSize: 1.188rem
+                          fontFamily: times-new-roman
+                          color: '#181715'
+                  
+
+        page2Footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            flexWrap: wrap
+          children:
+            page2FooterText:
+              type: text
+              css:
+                zIndex: 3
+                fontSize: 13px
+                fontFamily: times-new-roman
+                color: Black
+                textAlign: center
+            page2FooterImg:
+              type: img
+              css:
+                width: 0.2in
+                height: 0.2in
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                zIndex: 3
+
+    page5a:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        #width: 51rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+      children:
+        stat_loi:
+          type: text
+
+    page_letter:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        #width: 51rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        maxHeight: 11in
+        overflow: hidden
+      children:
+        letter_body:
+          type: div
+          css:
+            display: flex
+            flexDirection: column
+            gap: 0.5rem
+            fontSize: 1.1rem
+            lineHeight: 1.2
+            margin: 15px
+            fontFamily: calibri
+
+            
+          children:
+            letter_date:
+              type: text
+              css:
+                marginBottom: 0.5rem
+            letter_address:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                marginLeft: 1rem
+                gap: 1rem
+              children:
+                fromBox:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    gap: 0.1rem
+                  children:
+                    frm_line1:
+                      type: text
+                    frm_line2:
+                      type: text
+                    frm_line3:
+                      type: text
+                toBox:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    gap: 0.1rem
+                  children:
+                    to_line1:
+                      type: text
+                    to_line2:
+                      type: text
+                    to_line3:
+                      type: text
+                    to_line4:
+                      type: text
+                    to_line5:
+                      type: text
+                    to_line6:
+                      type: text
+                    to_line7:
+                      type: text
+            salutation:
+              type: text
+              css:
+                marginBottom: 0.5rem
+                marginTop: 0.5rem
+            messageHeader:
+              type: text
+              css:
+                color: Navy
+                fontSize: 1.7rem
+                marginBottom: 0.5rem
+            message:
+              type: text
+              css:
+                marginBottom: 0.5rem
+                #fontFamily: dawningofanewday-regular
+            letterFooter:
+              type: div
+              css:
+                display: flex
+                flexDirection: row
+                gap: 0.25rem
+                justifyContent: space-between
+              children:
+                signatureBox:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    justifyContent: center
+                    fontSize: 1rem
+                    fontWeight: bold
+                    color: Navy
+                  children:
+                    signature:
+                      type: img
+                      css:
+                        width: 8.5rem
+                        height: 45px
+                        backgroundRepeat: no-repeat
+                        backgroundSize: cover
+                        marginBottom: 0.5rem
+                    signatureName:
+                      type: text
+                    signatureTitle:
+                      type: text
+                    licenseNumber:
+                      type: text
+                    email:
+                      type: text
+
+                qrCodeSection:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: row
+                    gap: 0.25rem
+                    justifyContent: center
+                    alignItems: center
+                  children:
+                    qrInfoBox:
+                      type: div
+                      css:
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        fontSize: larger
+                        fontWeight: bolder
+                        color: maroon
+                      children:
+                        scanMe:
+                          type: text
+                        or:
+                          type: text
+                        callPraveen:
+                          type: text
+                        mobileNumber:
+                          type: text
+                    letterQRCode:
+                      type: qrcode                      
+                      css:            
+                        # width: 1.4in
+                        left: 0.5in
+                        borderRadius: 0.3rem
+                        border: '0.1rem solid rgb(6, 61, 113)'
+                        textAlign: center
+                        padding: 0.1rem
+                        # marginBottom: 1rem
+
+
+#####
+        
