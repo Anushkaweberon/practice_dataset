@@ -31,7 +31,7 @@ a4parent:
           children:
             page1HeaderLeft:
               type: div
-              className: page1Header
+              className: page1HeaderLeft
               css:
                 flex: 1 0 auto
                 gap: 0.25rem
@@ -50,9 +50,8 @@ a4parent:
                     height: 0.53in
             page1HeaderRight:
               type: div
-              className: page1Header
+              className: page1HeaderRight
               css:  
-                # backgroundColor: black
                 flex: 1 1 6.15in
               children:
                 page1HeaderRightText1:
@@ -63,10 +62,10 @@ a4parent:
                     fontSize: 1.75rem
                 image3:
                   type: img
-                  className: image
+                  className: image3
                   css: 
-                    width: 98%
-                    height: 0.67in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
                 page1HeaderRightText2: 
                   type: text
                   css:  
@@ -86,6 +85,7 @@ a4parent:
                   type: div
                   css:
                     display: flex
+                    flexWrap: wrap
                     alignItem: center
                     width: 100%
                   children:

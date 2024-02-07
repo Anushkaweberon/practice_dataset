@@ -54,7 +54,13 @@ p{
     border: 1px solid black;
     gap: 0.5rem;
 }
-.page1Header{
+.page1HeaderLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page1HeaderRight{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,4 +93,56 @@ p{
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 0.4rem;
+}
+.image3{
+    width: 98%;
+    height: 0.67in;
+}
+@media all and (max-width: 8.5in){
+    .page{
+        border: none
+    }
+    .image3{
+        height: 0.8in;
+        width: 94%
+    }
+    .page1HeaderLeft{
+        flex-direction: row;
+    }
+}
+@media all and (max-width: 8in){
+    .image3{
+        height: 0.7in;
+        width: 90%
+    }
+}
+@media all and (max-width: 7.5in){
+    .image3{
+        height: 0.7in;
+        width: 88%
+    }
+}
+@media all and (max-width: 720px){
+    .image3{
+        height: 0.6in;
+        width: 85%
+    }
+}
+@media all and (max-width: 650px){
+    .image3{
+        height: 0.55in;
+        width: 84%
+    }
+}
+@media all and (max-width: 600px){
+    .image3{
+        height: 0.55in;
+        width: 93%
+    }
+}
+@media all and (max-width: 550px){
+    .image3{
+        height: 0.55in;
+        width: 98%
+    }
 }
