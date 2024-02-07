@@ -31,7 +31,7 @@ a4parent:
           children:
             page1HeaderLeft:
               type: div
-              className: page1Header
+              className: page1HeaderLeft
               css:
                 flex: 1 0 auto
                 gap: 0.25rem
@@ -50,9 +50,8 @@ a4parent:
                     height: 0.53in
             page1HeaderRight:
               type: div
-              className: page1Header
+              className: page1HeaderRight
               css:  
-                # backgroundColor: black
                 flex: 1 1 6.15in
               children:
                 page1HeaderRightText1:
@@ -63,10 +62,10 @@ a4parent:
                     fontSize: 1.75rem
                 image3:
                   type: img
-                  className: image
+                  className: image3
                   css: 
-                    width: 98%
-                    height: 0.67in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
                 page1HeaderRightText2: 
                   type: text
                   css:  
@@ -86,6 +85,7 @@ a4parent:
                   type: div
                   css:
                     display: flex
+                    flexWrap: wrap
                     alignItem: center
                     width: 100%
                   children:
@@ -651,7 +651,152 @@ a4parent:
       children:
         stat_loi:
           type: text
+    pageLetter:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        margin: 0
+        maxHeight: 11in
+        overflow: hidden
+      children:
+        letterBody:
+          type: div
+          css:
+            display: flex
+            flexDirection: column
+            gap: 0.5rem
+            fontSize: 1.1rem
+            margin: 15px
+            fontFamily: calibri
+            lineHeight: 1.2
+          children: 
+            letterDate:
+              type: text
+            letterAddress:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                gap: 1rem
+                marginLeft: 10px
+              children:
+                letterFrom:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    gap: 0.1rem
+                  children: 
+                    fromText1:
+                      type: text
+                    fromText2:
+                      type: text
+                    fromtext3:
+                      type: text
+                letterTo:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    gap: 0.1rem
+                  children:
+                    toText1:
+                      type: text
+                    toText2:
+                      type: text
+                    toText3:
+                      type: text
+                    toText4:
+                      type: text
+                    toText5:
+                      type: text
+            letterSalutation:
+              type: text
+              css:
+                marginBottom: 0.5rem
+                marginTop: 0.5rem
+            letterMessageHeader:
+              type: text
+              css:
+                color: navy
+                marginBottom: 0.5rem
+                fontSize: 1.7rem
+            letterMessage: 
+              type: text
+              css:
+                marginBottom: 0.5rem
+            letterFooter:
+              type: div
+              css:
+                display: flex
+                justifyContent: space-between
+                gap: 0.25rem
+              children:
+                letterFooterLeft:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    justifyContent: center
+                    fontSize: 1rem
+                    fontWeight: 600
+                    color: navy
+                  children: 
+                    signImage:
+                      type: img
+                      css:
+                        width: 8.5rem
+                        height: 45px
+                        backgroundRepeat: no-repeat
+                        backgroundSize: cover
+                        marginBottom: 0.5rem
+                    signatureName:
+                      type: text
+                    signatureTitle:
+                      type: text
+                    licenseNumber:
+                      type: text
+                    email:
+                      type: text
+                qrCodeSection:
+                  type: div
+                  css:
+                    display: flex
+                    gap: 0.25rem
+                    justifyContent: center
+                    alignItems: center
+                  children:
+                    qrInfoBox:
+                      type: div
+                      css:
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        fontSize: larger
+                        fontWeight: bolder
+                        color: maroon
+                      children:
+                        scanMe:
+                          type: text
+                        or:
+                          type: text
+                        callPraveen:
+                          type: text
+                        mobileNumber:
+                          type: text
+                    letterQRCode:
+                      type: qrcode                      
+                      css:            
+                        left: 0.5in
+                        borderRadius: 0.3rem
+                        # border: '0.1rem solid rgb(6, 61, 113)'
+                        textAlign: center
+                        padding: 0.1rem
 
+                  
 
 
 

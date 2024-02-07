@@ -170,7 +170,80 @@ a4parent:
       <div data-slot="dwc" data-param-slot-name="mw_stat_loi" id="mw_stat_loi_parent">
         <div id="p5astat_loi_def" style="left:0rem;top:0rem;width:51rem;height:66rem;position:absolute;z-index:2;background-image:url('./img/contra_costa_detached.svg')"></div>
       </div>
-  
+  pageLetter:
+    letterBody:
+      letterDate: February 2024
+      letterAddress:
+        letterFrom:
+          fromText1: PRAVEEN KUMAR
+          fromText2: 12935 ALCOSTA BLVD UNIT 3681
+          fromtext3: SAN RAMON, CA 94583-6173
+        letterTo:
+          toText1: <span data-slot="dwc">{line1}</span>
+          toText2:  <span data-slot="dwc">{line1}</span>
+          toText3: <span data-slot="dwc">{line1}</span>
+          toText4:  <span data-slot="dwc">{street}</span>
+          toText5: <span data-slot="dwc">{city}, {state}, {zip}</span>
+      letterSalutation: Hello <span data-slot="dwc">{alias}</span>,
+      letterMessageHeader: We are selling homes like yours at more than 110% of listing price!
+      letterMessage: |
+        <p class="letterpara">
+          We just repeated that success by selling another home in <span data-slot="dwc">{loi}</span> for 114.46% above listed price!
+        </p>
+
+        <p class="letterpara">
+          It is a sellers market! Since interest rates are low, it is attracting many buyers to this red hot market. If you have a
+          home, there is no better time than now to sell and realize capital gains.
+        </p>
+
+        <p class="letterpara">
+          Enclosed are details of market activity in October for <span data-slot="dwc">{loi}</span>, and my newsletter. On page 1, discover 6
+          costly mistakes to avoid before buying a home. We also help you prepare to sell your home with a useful
+          checklist for home sellers. Additionally, page 2 has a list of useful reports that you can request, for FREE.
+        </p>
+
+        <p class="letterpara">
+          Whether you’re selling or buying a home, we’re sure that you have lots of questions. We invite your questions and
+          explain how to direct them to us, so they can be answered in one of the upcoming issues of MarketWatch. This
+          month we’ve addressed another popular question that many homebuyers ask. "Don't Pay Another Cent in Rent to
+          Your Landlord Before You Read this FREE Special Report".
+        </p>
+
+        <p class="letterpara">
+          Don’t forget, you can call my office any time at 925‐452‐7483 for a FREE Quick Over-the-Phone Home Evaluation.
+        </p>
+
+        <p class="letterpara">
+          As its name implies, this is a NO cost, NO obligation way of learning what your home can sell for in today’s market.
+          Subscribe to instant updates on Best Buys by sending <span data-slot="dwc">"START {alias}"</span> to 925452483 on WhatsApp.
+        </p>
+
+        <p class="letterpara">
+          I look forward to hearing from you.
+        </p>
+
+        <p class="letterpara">
+          Sincerely,
+        </p>
+      letterFooter:
+        letterFooterLeft: 
+          signImage: 
+          signature: img/image-006.png
+          signatureName: Praveen Kumar
+          signatureTitle: Broker Owner, WeBeRealty
+          licenseNumber: CA BRE Lic#:01928307
+          email: praveen@weberealty.com
+        qrCodeSection:
+          qrInfoBox:
+            scanMe: Scan QR Code
+            or: or
+            callPraveen: CALL Praveen
+            mobileNumber: ✆ 925‐320‐0863
+        letterQRCode: {trackableurl}
+
+
+
+
 
 
 
