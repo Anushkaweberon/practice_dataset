@@ -41,7 +41,7 @@ marketwatch_202402:
   ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
 
 marketwatch_202402_print:  
-  template: "templateInput/mw-gen-020610"
+  template: "templateInput/mw-gen-020610-print"
   userdata: "userInput/2024-mw/mw-202402-print"
   medium : "PRINT"
   ogTitle: "Praveen Kumar's Marketwatch January 2024"

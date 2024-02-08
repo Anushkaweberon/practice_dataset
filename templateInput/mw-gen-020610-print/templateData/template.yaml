@@ -723,7 +723,6 @@ tabloidParent:
                     backgroundColor: '#063d71'
                     fontSize: 14px
                     fontFamily: calibri
-                p2bs2Footer:
 
             p2bSection3:
               type: div

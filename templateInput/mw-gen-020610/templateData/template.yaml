@@ -572,10 +572,10 @@ a4parent:
                         marginBottom: 1px
                         marginLeft: 20px
                         marginRight: 20px
-                        fontSize: 34px
+                        fontSize: 1.65rem
                         fontFamily: times-new-roman-bold
                         textAlign: center
-                        color: '#002d64'
+                        color: 'black'
                         zIndex: 3
                     p2bs1lContent:
                       type: text

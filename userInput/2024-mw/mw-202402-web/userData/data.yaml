@@ -26,14 +26,14 @@ a4parent:
       p1bSection1:
         p1bs1Left:
           p1b1lBox1: 
-            rightSec1Header1: HOME BUYER <br> TRAPS TO AVOID <br>
-            rightSec1Header2: Free Report reveals what you need <br> to know before you buy a home. <br>
-            rightSec1Text: Free recorded message<br> 
+            rightSec1Header1: HOME BUYER TRAPS TO AVOID 
+            rightSec1Header2: Free Report reveals what you need to know before you buy a home.
+            rightSec1Text: Free recorded message
             rightSec1Footer: <b> 1‐844‐311‐5109 ID "#5018" </b>
           p1b1lBox2: 
-            leftSec4Header: HOMESELLERS <br> Find out what homes <br> down the street sold <br> for! <br>
-            leftSec4Text: Free hotlist w/pics of recent area <br> homesales and current listings. <br>
-            leftSec4Footer: Free record message<br> <b> 1‐844‐311‐5109 ID "#5041" </b>
+            leftSec4Header: HOMESELLERS Find out what homes down the street sold for! 
+            leftSec4Text: Free hotlist w/pics of recent area homesales and current listings. 
+            leftSec4Footer: Free record message <b> 1‐844‐311‐5109 ID "#5041" </b>
         p1bs1Right:
           p1bs1rHeader: 3 Ways to Buy a SF Bay Area Home for Less Money
           p1bs1rContent: |
@@ -87,29 +87,28 @@ a4parent:
       p1bSection3:
         p1bs3Left:
           p1b3lBox1:
-            p1b3lb1Header: HOMEBUYERS <br>6 Costly Mistakes<br> to Avoid Before Buying<br> a Home<br>
-            p1b3lb1Text: Free Report reveals how to save <br> thousands <br>of dollars and years of expense.<br>
-            p1b3lb1Footer: 'Free recorded message<br> <b>1‐844‐311‐5109 ID #5004 </b>'
+            p1b3lb1Header: HOMEBUYERS 6 Costly Mistakes to Avoid Before Buying a Home
+            p1b3lb1Text: Free Report reveals how to save thousands of dollars and years of expense.
+            p1b3lb1Footer: 'Free recorded message <b>1‐844‐311‐5109 ID #5004 </b>'
         p1bs3Right:
           p1b3rBox1:
             p1b3rb1Header: FREE HOMESELLER'S MARKETING CHECKLIST
             p1b3rb1Text: |
-              <p>This valuable checklist has helped hundreds of area home sellers make thousands<br> 
-              of dollars more on their home sale. Now you too can maximize your home’s<br>
-              saleability with this Homeseller’s Marketing Checklist, which reveals 27 Valuable<br>
-              Tips to Sell Your Home Fast and for Top Dollar. We’ll send you your free<br>
-              Homeseller’s Marketing Checklist at no charge and without obligation. <br></p>
-            p1b3rb1Footer: 'To order any time, 24 hours a day, call<br><b> 1‐844‐311‐5109 ID #5023</b>'
+              <p>This valuable checklist has helped hundreds of area home sellers make thousands
+              of dollars more on their home sale. Now you too can maximize your home’s
+              saleability with this Homeseller’s Marketing Checklist, which reveals 27 Valuable
+              Tips to Sell Your Home Fast and for Top Dollar. We’ll send you your free
+              Homeseller’s Marketing Checklist at no charge and without obligation.</p>
+            p1b3rb1Footer: 'To order any time, 24 hours a day, call<b> 1‐844‐311‐5109 ID #5023</b>'
     page1Footer:
       page1FooterText: "Consumer information provided courtesy of Praveen Kumar, CA BRE Lic#: 01928307"
       page1FooterImg: img/image4.png
   page2: 
-    page2Header: 
-      text1: It's YOUR Move
+    page2Header: It's YOUR Move
     page2Body:
       p2bSection1:
         p2bs1Left:
-          p2bs1lTitle: Which of These Costly Homeseller<br> Mistakes Will You Make When You Sell <br>Your SF Bay Area Home?
+          p2bs1lTitle: Which of These Costly Homeseller Mistakes Will You Make When You Sell Your SF Bay Area Home?
           p2bs1lContent: |
             <p>A new report has just been released, which reveals 7 costly mistakes that most homeowners make when selling their home, and a 9 Step System that can help you sell your home fast and for the most money.</p>
             <p>This industry report shows clearly how the traditional ways of selling homes have become increasingly less and less effective in today’s market. The fact of the matter is that three-quarters of home sellers don’t get what they want for their homes and become disillusioned and - worse - financially disadvantaged when they put their homes on the market.</p>
@@ -118,17 +117,17 @@ a4parent:
             <p>Get your free special report NOW to find out how to get the most money for your home.</p>
         p2bs1Right:
           p2bs1rBox1:
-            p2bs1rB1Header: DISTRESS SALE HOMES<br> in SF Bay Area<br> BANK FORECLOSURES<br>
-            p2bs1rB1Text: Free hotlist of foreclosure<br> property listings w/pics.
-            p2bs1rB1Footer: 'Free recorded message<br><b> 844-­311-­5109 ID #5042</b>'
+            p2bs1rB1Header: DISTRESS SALE HOMES in SF Bay Area BANK FORECLOSURES
+            p2bs1rB1Text: Free hotlist of foreclosure property listings w/pics.
+            p2bs1rB1Footer: 'Free recorded message<b> 844-­311-­5109 ID #5042</b>'
           p2bs1rBox2:
-            p2bs1rB2Header: HOME SELLERS<br> MISTAKES<br>
-            p2bs1rB2Text: Free Report Reveals 7 Costly<br> Mistakes to Avoid Before Selling<br> Your Home.
-            p2bs1rB2Footer: 'Free recorded message <br><b>844-­311-­5109 ID#5000</b>'
+            p2bs1rB2Header: HOME SELLERS MISTAKES
+            p2bs1rB2Text: Free Report Reveals 7 Costly Mistakes to Avoid Before Selling Your Home.
+            p2bs1rB2Footer: 'Free recorded message <b>844-­311-­5109 ID#5000</b>'
           p2bs1rBox3:
-            p2bs1rB3Header: HOME SELLERS<br> MISTAKES<br>
-            p2bs1rB3Text: Free Report Reveals 7 Costly<br> Mistakes to Avoid Before Selling<br> Your Home.
-            p2bs1rB3Footer: 'Free recorded message <br><b>844-­311-­5109 ID#5000</b>'
+            p2bs1rB3Header: HOME SELLERS MISTAKES
+            p2bs1rB3Text: Free Report Reveals 7 Costly Mistakes to Avoid Before Selling Your Home.
+            p2bs1rB3Footer: 'Free recorded message <b>844-­311-­5109 ID#5000</b>'
       p2bSection2:
         p2bs2Header: INFORMATION CORNER
         p2bs2Text: Valuable FREE reports for Buyers and Sellers sent to you at no cost or obligation. Call anytime 24 hours a day to <br><b><span style='font-size:150%;'>844‐311‐5109</span></b> and enter the ID# of the information that you would like to receive.
