@@ -28,12 +28,12 @@ a4parent:
           p1b1lBox1: 
             rightSec1Header1: HOME BUYER TRAPS TO AVOID 
             rightSec1Header2: Free Report reveals what you need to know before you buy a home.
-            rightSec1Text: Free recorded message
+            rightSec1Text: Free recorded message<br>
             rightSec1Footer: <b> 1‐844‐311‐5109 ID "#5018" </b>
           p1b1lBox2: 
             leftSec4Header: HOMESELLERS Find out what homes down the street sold for! 
             leftSec4Text: Free hotlist w/pics of recent area homesales and current listings. 
-            leftSec4Footer: Free record message <b> 1‐844‐311‐5109 ID "#5041" </b>
+            leftSec4Footer: Free record message<br> <b> 1‐844‐311‐5109 ID "#5041" </b>
         p1bs1Right:
           p1bs1rHeader: 3 Ways to Buy a SF Bay Area Home for Less Money
           p1bs1rContent: |
@@ -89,7 +89,7 @@ a4parent:
           p1b3lBox1:
             p1b3lb1Header: HOMEBUYERS 6 Costly Mistakes to Avoid Before Buying a Home
             p1b3lb1Text: Free Report reveals how to save thousands of dollars and years of expense.
-            p1b3lb1Footer: 'Free recorded message <b>1‐844‐311‐5109 ID #5004 </b>'
+            p1b3lb1Footer: 'Free recorded message <br><b>1‐844‐311‐5109 ID #5004 </b>'
         p1bs3Right:
           p1b3rBox1:
             p1b3rb1Header: FREE HOMESELLER'S MARKETING CHECKLIST
@@ -99,7 +99,7 @@ a4parent:
               saleability with this Homeseller’s Marketing Checklist, which reveals 27 Valuable
               Tips to Sell Your Home Fast and for Top Dollar. We’ll send you your free
               Homeseller’s Marketing Checklist at no charge and without obligation.</p>
-            p1b3rb1Footer: 'To order any time, 24 hours a day, call<b> 1‐844‐311‐5109 ID #5023</b>'
+            p1b3rb1Footer: 'To order any time, 24 hours a day, call<br><b> 1‐844‐311‐5109 ID #5023</b>'
     page1Footer:
       page1FooterText: "Consumer information provided courtesy of Praveen Kumar, CA BRE Lic#: 01928307"
       page1FooterImg: img/image4.png
@@ -119,15 +119,15 @@ a4parent:
           p2bs1rBox1:
             p2bs1rB1Header: DISTRESS SALE HOMES in SF Bay Area BANK FORECLOSURES
             p2bs1rB1Text: Free hotlist of foreclosure property listings w/pics.
-            p2bs1rB1Footer: 'Free recorded message<b> 844-­311-­5109 ID #5042</b>'
+            p2bs1rB1Footer: 'Free recorded message<br><b> 844-­311-­5109 ID #5042</b>'
           p2bs1rBox2:
             p2bs1rB2Header: HOME SELLERS MISTAKES
             p2bs1rB2Text: Free Report Reveals 7 Costly Mistakes to Avoid Before Selling Your Home.
-            p2bs1rB2Footer: 'Free recorded message <b>844-­311-­5109 ID#5000</b>'
+            p2bs1rB2Footer: 'Free recorded message<br> <b>844-­311-­5109 ID#5000</b>'
           p2bs1rBox3:
-            p2bs1rB3Header: HOME SELLERS MISTAKES
-            p2bs1rB3Text: Free Report Reveals 7 Costly Mistakes to Avoid Before Selling Your Home.
-            p2bs1rB3Footer: 'Free recorded message <b>844-­311-­5109 ID#5000</b>'
+            p2bs1rB3Header: 10 Questions to Ask Before You Hire a REALTOR®
+            p2bs1rB3Text: Do not hire an agent before you read this Free Special Report.
+            p2bs1rB3Footer: 'Free recorded message <br><b>1-844‐311‐5109 ID#5006</b>'
       p2bSection2:
         p2bs2Header: INFORMATION CORNER
         p2bs2Text: Valuable FREE reports for Buyers and Sellers sent to you at no cost or obligation. Call anytime 24 hours a day to <br><b><span style='font-size:150%;'>844‐311‐5109</span></b> and enter the ID# of the information that you would like to receive.
