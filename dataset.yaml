@@ -46,4 +46,20 @@ marketwatch_202402_print:
   medium : "PRINT"
   ogTitle: "Praveen Kumar's Marketwatch January 2024"
   ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+marketwatch_202403:  
+  template: "templateInput/mw-gen-030711"
+  userdata: "userInput/2024-mw/mw-202403-web"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Marketwatch January 2024"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+marketwatch_202403_print:  
+  template: "templateInput/mw-gen-030711-print"
+  userdata: "userInput/2024-mw/mw-202403-print"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Marketwatch January 2024"
+  ogDescription: "Real Estate News"
   ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"  
