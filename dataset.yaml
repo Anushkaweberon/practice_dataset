@@ -16,18 +16,3 @@ sample_web:
   ogDescription: ""
   ogImage: ""
   
-sample_marketWatch_web:  
-  template: "templateInput/marketWatch_web"
-  userdata: "userInput/marketWatch_data/marketWatch_web"
-  medium : "WEB"
-  ogTitle: "Praveen Kumar's Marketwatch February 2024"
-  ogDescription: "Real Estate News"
-  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
-
-sample_marketWatch_print:  
-  template: "templateInput/marketWatch_print"
-  userdata: "userInput/marketWatch_data/marketWatch_print"
-  medium : "PRINT"
-  ogTitle: "Praveen Kumar's Marketwatch February 2024"
-  ogDescription: "Real Estate News"
-  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
