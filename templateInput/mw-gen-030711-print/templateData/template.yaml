@@ -1,7 +1,7 @@
 ---
 tabloidParent:
   type: div
-  className: a4parent
+  className: tabloidParent
   css:
     display: flex
     flexDirection: row
