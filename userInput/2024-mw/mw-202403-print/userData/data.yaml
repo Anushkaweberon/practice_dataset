@@ -123,7 +123,7 @@ tabloidParent:
   page5a:
     stat_loi: |
       <div data-slot="dwc" data-param-slot-name="mw_stat_loi" id="mw_stat_loi_parent">
-        <div id="p5astat_loi_def" style="left:0rem;top:0rem;width:51rem;height:66rem;position:absolute;z-index:2;background-image:url('')"></div>
+        <div id="p5astat_loi_def" style="left:0rem;top:0rem;width:51rem;height:66rem;position:absolute;z-index:2;background-image:url('./img/contra_costa_detached.svg')"></div>
       </div>
   page_letter:
     letter_body:
