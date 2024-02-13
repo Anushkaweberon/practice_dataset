@@ -1,0 +1,384 @@
+a4parent:
+  type: div
+  className: a4parent
+  css:
+    display: flex
+    flexDirection: row
+    flexWrap: wrap
+  children:
+    page1:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        page1Header:
+          type: div
+          css:
+            display: flex
+            flexDirection: column
+            alignItems: center
+            justifyContent: center
+          children:
+            page1HeaderImage:
+              type: img
+              className: image
+              css:
+                width: 100%
+                height: 6.25rem
+                margin: 0 0.5rem
+            page1HeaderText:
+              type: text
+              css:
+                fontSize: 1rem
+                color: '#cd0f13'
+                fontFamily: ebrimabd
+                textAlign: center
+                fontWeight: 600
+            page1HeaderImage2:
+              type: img
+              className: image
+              css:
+                width: 100%
+                height: 12.3rem
+        page1Body:
+          type: div
+          css:
+            display: flex
+            flexWrap: wrap
+            alignItems: center
+            gap: 1rem
+            padding: 0.5rem
+            margin: 0 20px
+          children:
+            page1BodyLeft:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                alignItems: center
+                gap: 0.25rem
+                flex: 1 1 14rem
+              children: 
+                page1BodyLeftText1:
+                  type: text
+                  className: accessMyMessage
+                  css:
+                    backgroundColor: royalblue
+                    borderRadius: 0.5rem
+                    fontSize: 21px
+                    display: inline-block
+                    padding: 0.5rem
+                    marginBottom: 0.5rem
+                page1BodyLeftText2:
+                  type: text
+                  css:
+                    fontFamily: times-new-roman-bold
+                    fontSize: 21px
+                    color: '#cd0f13'
+                    lineHeight: 1
+                page1BodyLeftText3:
+                  type: text
+                  css:
+                    fontFamily: times-new-roman-italic
+                    fontSize: 15px
+                    lineHeight: 1.2
+                    padding: 0.5rem 0
+                page1BodyLeftSignatureImage:
+                  type: img
+                  css:
+                    width: 8.5rem
+                    height: 45px
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                page1BodyLeftPraveenImage:
+                  type: img
+                  css:
+                    width: 1.8in
+                    height: 1.8in
+                    backgroundSize: cover
+                    borderradius: 0.5rem
+                page1BodyLeftText4:
+                  type: text
+                  css:
+                    fontFamily: times-new-roman-bold
+                    fontSize: 18px
+                    color:  '#cd0f13'
+                page1BodyLeftText5:
+                  type: text
+                  css:
+                    fontFamily: times-new-roman
+                    fontSize: 11px
+                    textAlign: center
+                    color:  '#cd0f13'
+            page1BodyRight:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                alignItems: center
+                flex: 1 1 32rem
+              children:
+                page1BodyRightImage:
+                  type: img
+                  className: image
+                  css:  
+                    width: 100%
+                    height: 10.8rem
+                page1BodyRightText:
+                  type: div
+                  css:
+                    fontSize: 0.875rem
+                    fontFamily: calibri
+                    lineHeight: 1.5
+                    textAlign: justify
+                    margin: 0.5rem 0 1rem 0    
+                  children:
+                    para1:
+                      type: text
+                      css:  
+                        marginTop: 0.35rem
+                        display: block            
+                    para2:
+                      type: text
+                      css:  
+                        marginTop: 1rem
+                        display: block 
+                    para3:
+                      type: text
+                      css:  
+                        marginTop: 1rem
+                        display: block 
+                page1BodyRightFooter:
+                  type: text
+                  css:
+                    textAlign: center
+                    lineHeight: 1
+                    fontSize: 1.75rem
+                    fontFamily: arialBoldItalic
+                    transform: rotate(-2deg)
+        page1Footer:
+          type: text
+          css:
+            display: flex
+            justifyContent: center
+            textAlign: center
+            padding: 0.5rem
+            backgroundColor: '#063d71'
+            color: '#fff'
+            fontFamily: times-new-roman
+            fontSize: 1.25rem
+    page2:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        page2Header:
+          type: text
+          css: 
+            backgroundColor: '#ffe48d'
+            fontSize: 1.75rem
+            fontWeight: 600
+            lineHeight: 1.3
+            display: flex
+            flexDirection: column
+            justifyContent: center
+            textAlign: center
+            color: '#063d71'
+            padding: 0 5rem
+        page2Body:
+          type: div
+          css:  
+            display: flex
+            padding: 0.5rem
+            gap: 1rem
+            flexWrap: wrap
+            alignItems: flex-start
+          children:
+            page2BodyLeft:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                alignItems: center
+                flex: 1 1 3.5in
+              children: 
+                page2BodyLeftHeader:
+                  type: text
+                  css:
+                    fontSize: 1.1rem
+                    lineHeight: 1.3
+                    padding: 1.3rem
+                    backgroundColor: 'RoyalBlue'
+                    textAlign: center
+                    fontFamily: calibri
+                    color: '#fff'
+                    borderRadius: 0.3rem
+                page2BodyLeftBox:
+                  type: div
+                  css:
+                    height: 4.8rem
+                    width: 4.2rem
+                    backgroundColor: royalblue
+                pag2BodyLeftArrow:
+                  type: div
+                  css:
+                    width: 0 
+                    height: 0
+                    borderLeft: 80px solid transparent
+                    borderRight: 80px solid transparent
+                    borderTop: 80px solid royalblue
+                page2BodyleftFooter:
+                  type: text
+                  css:
+                    width: 16.2rem
+                    height: 11.4rem
+                    border: 1px solid black
+                    borderRadius: 1.2rem
+                    padding: 1rem
+                    textAlign: center
+                    lineHeight: 1.1
+                    fontSize: 1.1rem
+                    fontFamily: times-new-roman-bold
+                    color: '#085296'
+            page2BodyRight:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                flex: 1 1 4.5in
+              children:
+                page2BodyRightHeader:
+                  type: div
+                  css:
+                    fontSize: 17.5px
+                    lineHeight: 1.2
+                    fontFamily: calibri
+                    textAlign: justify
+                  children:
+                    rightPara1: 
+                      type: text
+                      className: para
+                    rightPara2: 
+                      type: text
+                      className: para
+                    rightPara3: 
+                      type: text
+                      className: para
+                    rightPara4: 
+                      type: text
+                      className: para
+                    rightPara5: 
+                      type: text
+                      className: para
+                    rightPara6: 
+                      type: text
+                      className: para
+                    rightPara7: 
+                      type: text
+                      className: para        
+                page2BodyRightContent:
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    justifyContent: center
+                    marginTop: 0.5rem
+                  children: 
+                    rightContentText1:
+                      type: text
+                      css:
+                        fontSize: 1rem
+                        fontWeight: 600
+                        textAlign: center
+                    rightContentBox:
+                      type: div
+                      css:
+                        display: flex
+                        alignItems: center
+                        gap: 0.5rem
+                        justifyContent: center
+                      children:
+                        text1:
+                          type: text
+                          css:
+                            fontSize: 4rem
+                            fontWeight: 900
+                        text2:
+                          type: text
+                          css:
+                            fontSize: 4rem
+                            fontWeight: 900
+                            color: red
+                    rightContentText2:
+                      type: text
+                      css:
+                        fontSize: 1.1rem
+                        fontWeight: 600
+                        textAlign: center
+                page2BodyRightFooter:
+                  type: text
+                  css:  
+                    display: block
+                    textAlign: end
+                    lineHeight: 1
+                    fontSize: 0.9rem
+                    fontFamily: calibri
+        page2Footer:
+          type: text
+          css:
+            display: flex
+            justifyContent: center
+            textAlign: center
+            padding: 0.5rem
+            backgroundColor: '#063d71'
+            color: '#fff'
+            fontSize: 1.3rem
+            fontFamily: times-new-roman
+    page3:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+
+
+
+
+
+
+
+
+
+
+
+
+

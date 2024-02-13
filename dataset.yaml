@@ -63,3 +63,11 @@ marketwatch_202403_print:
   ogTitle: "Praveen Kumar's Marketwatch January 2024"
   ogDescription: "Real Estate News"
   ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"  
+
+homeward_bound_2024_web:  
+  template: "templateInput/hb-gen-web"
+  userdata: "userInput/hb-2024-web"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's home ward bound 2024"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg" 
