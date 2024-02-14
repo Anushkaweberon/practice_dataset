@@ -1,0 +1,142 @@
+@font-face{
+    font-family: 'times-new-roman-bold';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-bold.otf');
+}
+@font-face{
+    font-family: 'times-new-roman-italic';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-italic.ttf');
+}
+@font-face{
+    font-family: 'arialBoldItalic';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arialbi.ttf');
+}
+@font-face{
+    font-family: 'times-new-roman';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman.ttf');
+}
+@font-face{
+    font-family: 'arial';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arial.ttf');
+} 
+@font-face{
+    font-family: 'mvboli';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/mvboli.ttf');
+} 
+@font-face {
+    font-family: 'ink free';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/Inkfree.ttf');
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-indent: 30px;
+    margin: 0;
+}
+.a4parent{
+    justify-content: center;
+}  
+.tabloidParent{
+    justify-content: center;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 11in;
+    width: 8.5in;
+    justify-content: space-between;
+    border: 1px solid;
+}  
+.image{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page1BodyLeftText1>a{
+    text-decoration: none;
+    color: #fff;
+}
+.para{
+    display: block;
+    margin-top: 1.2rem;
+}
+.accessMyMessage{
+    animation: messageBlink 5s infinite;
+}
+.page3Image{
+    width: 1.9in;
+    height: 7.5rem;
+    background-size: cover;
+    border: 0.4rem solid;
+    border-radius: 0.25rem;
+    box-shadow: 0px 3px 6px rgb(0,0,0,0.16) ;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    color:#000;
+    font-size: 1.8rem;
+    font-weight: 900;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes messageBlink{
+    0%{background-color: royalblue;}
+    35%{background-color: green;}
+    70%{background-color: maroon;}
+}
+
+@media all and (max-width: 8.5in){
+    .page{
+        width: 100%;
+        border: none;
+    }
+    .tabloidParent{
+      width: 100%;
+    }    
+}
+@media all and (max-width: 600px){
+    #page4BottomHeaderImage{
+        display:none;
+    }
+}
+@media all and (max-width: 450px){
+    #page1HeaderImage{
+        width: 90%;
+    }
+    #text1{
+        font-size: 3rem;
+    }
+}
+@media print {
+    .a4parent{
+      justify-content: start;
+      width: 8.5in;
+    }
+    .tabloidParent{
+      width: 17in;
+      justify-content: start;
+    }
+    .page{
+      border: none;
+    }
+  }

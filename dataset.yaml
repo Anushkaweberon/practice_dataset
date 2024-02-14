@@ -71,3 +71,11 @@ homeward_bound_2024_web:
   ogTitle: "Praveen Kumar's home ward bound 2024"
   ogDescription: "Real Estate News"
   ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg" 
+
+homeward_bound_2024_print:  
+  template: "templateInput/hb-gen-print"
+  userdata: "userInput/hb-2024-print"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's home ward bound 2024"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg" 
