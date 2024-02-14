@@ -369,6 +369,14 @@ a4parent:
         flexDirection: column
         justifyContent: space-between
       children:
+        page3Header:
+          type: div
+          css:
+            display: flex
+            alignItems: center
+            flexWrap: wrap
+            margin: 0 20px
+            padding: 0.5rem 0
 
 
 

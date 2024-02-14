@@ -73,11 +73,6 @@ body {
   #image3_alt{
     display: none;
   }
-  
-  a[href^=tel] {
-    text-decoration:inherit;
-    color: inherit;
-  }
   #image1{
     width: 1.4in;
     height: 1.4in;
