@@ -58,20 +58,72 @@ a4parent:
     page2Footer: We rise, by lifting others. - Robert Ingersoll
   page3:
     page3Header:
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
+      page3HeaderTop:
+        page3HeaderTopLeft: A Real Estate Company that Gives Back to an AMAZING WORTHY CAUSE!
+        page3HeaderTopRight: ♥
+      page3HeaderBottom: Leads the way in restoring lives, one person and one community at a time.
+    page3Body:
+      page3BodyLeft:
+        page3BodyLeftSec1:
+          para1: As a leading non-profit, Ananda Thirtha Vidyalaya depends on Sponsorships and Donations to continue its leading-edge service. We proudly donate a portion of our income from real estate sales to help them continue serving the needs of underprivileged children!
+          para2: Do you know anyone who might be contemplating a home purchase or sale and whom you could recommend to our real estate sales team? By doing so, not only will they receive the advantages of our award-winning real estate service, but also support a very noble cause.
+        page3BodyLeftSec2: |
+          <p style='font-family:mvboli;font-size:1.5rem'>Making a Difference!</p>
+          <div class='para' style='font-family:arial;'>Each one of us can make a difference. Together we can make a change!</div>
+        page3BodyLeftSec3: Your Referrals REALLY DO HELP the recipient of our service and underprivileged kids.
+        page3BodyLeftSec4: |
+          <div>A core value at our company is “the size of the hole you give through is directly proportionate to the size of the hole you receive through.”</div>
+          <div class="para">As part of our "Go Serve Big" mission, we proudly give back to those in our community who need help the most.</div>
+      page3BodyRight:
+        page3BodyRightSec1: |
+          <div>Over the decades of helping thousands and thousands of families sell or buy the place they call home, we have met so many wonderful, loving, caring people. We are so grateful. Thank you for reading over this month’s Homeward Bound and thank you for referring anyone you know considering buying or selling to my team. They will be in good hands and a very worthy cause will benefit as well.</div>
+          <div class='para'><b>Thank you in advance for your referrals!</b></div>
+          <div class='para'>To refer anyone considering buying or selling a home just give me a call or pass on my number.</div>
+          <div class='para'><b>That number is 925‑452‑7483.</b></div>
+          <div class='para'>You and your referrals mean more than ever to my team and me. As we move forward, please know we are extremely thankful for you and you being a special part of our business.</div>
+        page3BodyRightSec2: With all my appreciation
+        page3BodyRightSec3: img/praveen_signature.png
+        page3BodyRightSec4: 'Praveen Kumar <br>Ph: 925‑452‑7483'
+    page3BottomPicture:
+      picture1: img/chemistry_lab.jpg
+      picture2: img/playground.jpg
+      picture3: img/kindergarden.jpg
+      picture4: img/physics_lab.jpg
+    page3Footer: When You Put Others First, You Will Never Be Second!
+  page4:
+    page4Top: 
+      page4TopLeft:
+        page4TopLeftText1: A real estate company with experience, proven results and a give-back philosophy
+        page4TopLeftText2: |
+          Over the last decade of helping many families sell their home and/or buy another, we have met some wonderful, warm-hearted, and compassionate people like yourself!<br><br>
+          You can rest assured that your referrals will meet with an award-winning service that we are known for and the Guarantee to back it up while ensuring that a portion of the income we receive, will go towards a very worthy cause.
+        page4TopLeftText3: 'To Refer your friends, neighbors, associates or family members considering making a move:'
+        page4TopLeftText4:
+          text4Top:
+            text4TopNumber: 1
+            text4TopContent: Scan the QR Code on page 1 and enter their contact information.
+          text4Bottom:
+            text4BottomNumber: 2
+            text4BottomContent: Or you can call me directly at 925‑452‑7483.
+      page4TopRight:
+          rightSec:
+            page4TopRightImage: img/praveen_image.jpg
+            page4TopRightImage2: img/homeward.jpg
+            page4TopRightText1: Contact
+            page4TopRightFooter:
+              phone: Phone:<a href='925‑452‑7483'>925‑452‑7483</a><br>
+              email: Email:<a href='praveen@weberealty.com'>praveen@weberealty.com</a><br>
+              address: 'Address:<br><span style="color:#cd0f13;">12935 Alcosta Blvd. #3681 <br>San Ramon, CA, 94583</span><br>'
+              online: 'Online: <span class="accessMyMessage" style="background-color:royalblue; border-radius:0.5rem;color:#fff; font-size:18px; display:inline-block; padding:0.5rem;">Access My Message</span>'
+    page4Bottom:
+      page4BottomHeader:
+        page4BottomHeaderText: Why support underprivileged kids
+        page4BottomHeaderImage: img/logo.png
+      page4BottomBody: |
+        I came to the United States 35 years ago, as an engineering student. As I left India and my loving middle class family. I carried with me the value of dreaming BIG and persevering that dream with determination and deep dedication. I am at a very comfortable place today. However, the one thing that still haunts me is the awareness that 45% of the children around the world die of malnutrition (source: worldhunger.org). Even though we have enough food supply to feed 7.7 billion people, we let these children die every hour. Is it not deeply disconcerting to say the least?<br><br>
+        The idea of making a difference started with my visit to our housemaids hut, devoid of all the basic necessities, in addition to the lack of a bathroom. The faces of her two malnourished children held the blueprint to their everyday life compelling me to think about sharing. It seems magical that these kids are now grown up healthy, educated, and have settled comfortably carrying forward what they received in generosity.<br><br>
+        Encouraged by this real life experience, we are personally committed to the mission of 'lifting' these most deserving children. Your referrals will be the most valuable endeavor. Our professional commitment to you is that we earnestly provide not only outstanding results to our buyers and sellers, but also benefit a deserving underprivileged child.
+      page4BottomFooter: img/praveen_signature.png
 
 
 
