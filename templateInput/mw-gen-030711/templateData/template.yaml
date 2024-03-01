@@ -24,6 +24,7 @@ a4parent:
       children:
         page1Header:
           type: div
+          className: page1Header
           css:            
             marginTop: 15px
             marginBottom: 1px
@@ -49,6 +50,7 @@ a4parent:
               children:
                 image1:
                   type: img
+                  className: image1
                   css:
                     # width: 1.4in
                     # height: 1.4in
@@ -57,6 +59,7 @@ a4parent:
                     zIndex: 2
                 image2:
                   type: img
+                  className: image2
                   css:
                     # width: 1.1in
                     # height: 0.53in
@@ -65,6 +68,7 @@ a4parent:
                     zIndex: 2
             page1HeaderRight:
               type: div
+              className: page1HeaderRight
               css:
                 flex: 1 1 6.15in
                 # flex: 1 0 uto
@@ -75,6 +79,7 @@ a4parent:
               children:
                 sec1line1:
                   type: text
+                  className: sec1line1
                   css:
                     color: '#cd0f13'
                     textAlign: center
@@ -85,6 +90,7 @@ a4parent:
                     display: flex
                 image3:
                   type: img
+                  className: image3
                   css:
                     width: 98%
                     height: 0.67in
@@ -93,6 +99,7 @@ a4parent:
                     zIndex: 2
                 image3_alt:
                   type: div
+                  className: image3_alt
                   css:
                     color: Navy                    
                     fontWeight: bolder

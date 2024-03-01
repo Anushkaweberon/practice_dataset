@@ -735,11 +735,14 @@ tabloidParent:
                     fontWeight: 600
                 page4BottomHeaderImage:
                   type: img
-                  className: image
+                  className: page4BottomHeaderImage
                   css:
                     width: 7.5rem
                     height: 6.8rem
                     marginTop: -4.5rem
+                    backgroundPosition: center center
+                    backgroundSize: cover
+                    backgroundRepeat: no-repeat
             page4BottomBody:
               type: text
               css:

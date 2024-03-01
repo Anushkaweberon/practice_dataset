@@ -96,6 +96,7 @@ p{
     justify-content: center;
     align-items: center;
 }
+.page1HeaderImage{width: 100%;}
 @keyframes messageBlink{
     0%{background-color: royalblue;}
     35%{background-color: green;}
@@ -112,15 +113,21 @@ p{
     }    
 }
 @media all and (max-width: 600px){
-    #page4BottomHeaderImage{
+    .page4BottomHeaderImage{
         display:none;
     }
 }
 @media all and (max-width: 450px){
-    #page1HeaderImage{
-        width: 90%;
-    }
-    #text1{
-        font-size: 3rem;
+    .page1HeaderImage{
+        width: 95%;
     }
 }
+@media print {
+    .a4parent{
+      justify-content: start;
+      width: 8.5in;
+    }
+    .page{
+      border: none;
+    }
+  }

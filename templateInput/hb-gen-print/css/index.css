@@ -115,16 +115,8 @@ p{
     }    
 }
 @media all and (max-width: 600px){
-    #page4BottomHeaderImage{
+    .page4BottomHeaderImage{
         display:none;
-    }
-}
-@media all and (max-width: 450px){
-    #page1HeaderImage{
-        width: 90%;
-    }
-    #text1{
-        font-size: 3rem;
     }
 }
 @media print {
